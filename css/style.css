@@ -41,16 +41,6 @@ main {
 
 .col {
     display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.col-2 {
-    display: flex;
-    flex-basis: 0;
-    flex-grow: 2;
     flex-direction: column;
     margin: 10px;
 }
