@@ -1,4 +1,80 @@
-/* Document */
+/* Other */
 body {
     font-family: 'Open Sans', sans-serif;
+    background: whitesmoke;
+}
+
+.color-smooth {
+    /* Firefox */
+    -moz-transition: all 0.1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.1s ease-in;
+    /* Opera */
+    -o-transition: all 0.1s ease-in;
+    /* Standard */
+    transition: all 0.1s ease-in;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+/* Navigation */
+header {
+    overflow: hidden;
+    background: rgb(8, 82, 254);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav-name {
+    float: left;
+}
+
+#nav-links a {
+    float: right;
+}
+
+.link-border {
+    border: 1px solid rgba(255, 255, 255, 200);
+    border-radius: 8px;
+    padding: 9px 11px;
+    margin: 5px 5px;
+}
+
+.link-border:hover {
+    background: rgba(25, 26, 28, 230);
+}
+
+/* Main */
+main {
+    padding-top: 40px;
 }
