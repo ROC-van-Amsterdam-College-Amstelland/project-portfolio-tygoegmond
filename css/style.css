@@ -4,6 +4,10 @@ body {
     background: whitesmoke;
 }
 
+main {
+    padding-top: 60px;
+}
+
 .color-smooth {
     /* Firefox */
     -moz-transition: all 0.1s ease-in;
