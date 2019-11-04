@@ -20,6 +20,12 @@ main {
     transition: all 0.1s ease-in;
 }
 
+/* Tekst elementen */
+.text-soft {
+    opacity: .5;
+}
+
+/* Grid System */
 .container {
     padding-right: 15px;
     padding-left: 15px;
