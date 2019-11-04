@@ -125,7 +125,7 @@ nav a {
 
 .list-item {
     display: flex;
-    margin: 30px;
+    margin: 25px 50px;
 }
 
 .list-item-prefix {
