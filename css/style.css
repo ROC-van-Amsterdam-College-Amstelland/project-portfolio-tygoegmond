@@ -108,7 +108,46 @@ nav a {
     background: rgba(25, 26, 28, 230);
 }
 
-/* Main */
-main {
-    padding-top: 40px;
+/* Panel */
+.panel {
+    background: white;
+    border-radius: 7px;
+    box-shadow:rgba(127, 127, 127, 0.05) 0px 3px 3px -2px, rgba(127, 127, 127, 0.035) 0px 3px 4px 0px, rgba(127, 127, 127, 0.06) 0px 1px 8px 0px;
+}
+
+.panel-header {
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    padding: 20px;
+}
+
+.panel-title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.panel-content {
+    padding: 20px;
+}
+
+.panel-list {
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    margin: 30px;
+}
+
+.list-item-prefix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin-right: 30px;
+}
+
+
+.list-item-caption > * {
+    display: block;
 }
