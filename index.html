@@ -44,11 +44,22 @@
                 </div>
 
                 <div class="col">
-                    <div class="panel">
+                    <div class="panel panel-tabs">
                         <div class="panel-header">
                             <div class="panel-title">Algemene informatie</div>
                         </div>
-                        <div class="panel-content panel-list">
+
+                        <nav class="nav-tabs">
+                            <a class="nav-tabs-link nav-tabs-active" onclick="changeTab(1)" id="schoolTab_change">
+                                <span>School</span>
+                            </a>
+
+                            <a class="nav-tabs-link" onclick="changeTab(2)" id="vaardighedenTab_change">
+                                <span>Vaardigheden</span>
+                            </a>
+                        </nav>
+
+                        <div class="panel-content panel-list" id="schoolTab">
                             <div class="list-item">
                                 <i class="mdi mdi-school-outline list-item-prefix"></i>
                                 <div class="list-item-caption">
@@ -67,6 +78,10 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="panel-content panel-list hidden" id="vaardighedenTab">
+                            bruh
+                        </div>
                     </div>
                 </div>
              <!-- End row 1 -->
@@ -74,7 +89,7 @@
             
 
             <div class="row">
-                <div class="col">
+                <div class="col panel-image">
                     <div class="panel">
                         <div class="panel-content" >
                             <img src="img/IMG_3368.jpeg" alt="Foto Tygo Egmond" height="300px">
@@ -82,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col panel-image">
                     <div class="panel">
                         <div class="panel-content" >
                             <img src="img/IMG_1722.jpeg" alt="Foto Tygo Egmond" height="300px">
@@ -90,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col panel-image">
                     <div class="panel">
                         <div class="panel-content" >
                             <img src="img/IMG_3407.jpeg" alt="Foto Tygo Egmond" height="300px">
