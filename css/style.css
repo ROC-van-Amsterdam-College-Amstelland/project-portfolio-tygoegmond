@@ -44,6 +44,10 @@ main {
     flex-wrap: wrap;
 }
 
+.row-2 {
+    justify-content: space-around;
+}
+
 .col {
     display: flex;
     flex-direction: column;
