@@ -150,3 +150,69 @@ nav a {
 .list-item-caption > * {
     display: block;
 }
+
+/* Projecten */
+
+#projecten {
+    justify-content: center;
+}
+
+.project-image {
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-image img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.project-image:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: rgb(8, 82, 254);
+    overflow: scroll;
+}
+
+.project-info {
+    color: white;
+    font-size: 1.3em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.project-info-content {
+    margin: 20px;
+}
+
+.project-title {
+    font-weight: 600;
+}
+
+.project-info p {
+    font-size: 0.8em;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links a {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+}
