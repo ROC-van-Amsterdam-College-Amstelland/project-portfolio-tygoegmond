@@ -1,0 +1,12 @@
+[
+    {  
+        "naam": "Retarded Renegades - Algemene Website",   
+        "datum": "2019",
+        "img": "img/projecten/project_retarded_renegades.com.png",
+        "beschrijving": "Deze website heb ik gemaakt voor een community. De website heeft veel revisies gehad en wordt nog altijd verbeterd.",
+        "links": {
+            "github": "https://github.com/tygoegmond/Retarded-Renegades-Website",
+            "website": "http://retarded-renegades.com"
+        }
+    } 
+] 
