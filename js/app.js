@@ -28,7 +28,6 @@ if (document.getElementById("projecten")) {
 
     request.onload = function() {
     if (this.status >= 200 && this.status < 400) {
-        // Success!
         var data = JSON.parse(this.response);
 
         document.getElementById("projecten").innerHTML = '';
